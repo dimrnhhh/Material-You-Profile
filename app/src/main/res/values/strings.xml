@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Material You Profile</string>
+
+    // Navigation Bar
+    <string name="action_account">Akun</string>
+    <string name="action_edit">Ubah</string>
+    <string name="action_about">Tentang</string>
+
+    // Fragment Profile
+    <string name="student_name">Dimas Rian Hastedi</string>
+    <string name="university">Universitas Teknologi Yogyakarta</string>
+    <string name="student_id">5200411073</string>
+    <string name="student_status">Status Mahasiswa</string>
+    <string name="status">Aktif</string>
+
+    <string name="academic">AKADEMIK</string>
+    <string name="level">Jenjang</string>
+    <string name="level_status">Sarjana (S1)</string>
+    <string name="faculty">Fakultas</string>
+    <string name="faculty_name">Fakultas Sains &amp; Teknologi</string>
+    <string name="major">Jurusan</string>
+    <string name="major_name">Informatika</string>
+    <string name="semester">Semester</string>
+    <string name="current_semester">7 (Tujuh)</string>
+
+    // Fragment Edit
+    <string name="full_name">Nama</string>
+    <string name="id">NIM</string>
+    <string name="save_button">Simpan</string>
+
+    // Fragment About
+    <string name="app_version">v1.0</string>
+    <string name="attrb_lic">LISENSI &amp; ATRIBUSI</string>
+    <string name="apache_lic">Berlisensi di bawah lisensi Apache 2.0</string>
+    <string name="link">KUNJUNGI</string>
+    <string name="instagram_account"><a href="https://www.instagram.com/dimrnhhh/">https://www.instagram.com/dimrnhhh/</a></string>
+    <string name="github_account"><a href="https://github.com/dimrnhhh/">https://github.com/dimrnhhh/</a></string>
+    <string name="contact">KONTAK</string>
+    <string name="contact_info"><a href="0812345678901">0812345678901</a></string>
+</resources>
