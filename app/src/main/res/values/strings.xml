@@ -29,7 +29,7 @@
     <string name="save_button">Simpan</string>
 
     // Fragment About
-    <string name="app_version">v1.0</string>
+    <string name="app_version">v1.2</string>
     <string name="attrb_lic">LISENSI &amp; ATRIBUSI</string>
     <string name="apache_lic">Berlisensi di bawah lisensi Apache 2.0</string>
     <string name="link">KUNJUNGI</string>
