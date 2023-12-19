@@ -25,6 +25,8 @@ class EditFragment : Fragment() {
 
         binding.saveButton.setOnClickListener {
             Toast.makeText(requireActivity(), "Berhasil Disimpan", Toast.LENGTH_LONG).show()
+            activity?.let { NotificationService(it.applicationContext) }
+                ?.showNotification()
         }
     }
     override fun onDestroyView() {
