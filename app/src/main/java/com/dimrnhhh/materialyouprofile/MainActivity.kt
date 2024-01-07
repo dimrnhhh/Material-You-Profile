@@ -2,10 +2,14 @@ package com.dimrnhhh.materialyouprofile
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.fragment.app.Fragment
+import com.dimrnhhh.materialyouprofile.screens.AboutFragment
+import com.dimrnhhh.materialyouprofile.screens.AlarmFragment
+import com.dimrnhhh.materialyouprofile.screens.EditFragment
+import com.dimrnhhh.materialyouprofile.screens.ProfileFragment
+import com.dimrnhhh.materialyouprofile.viewmodels.MainViewModel
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class MainActivity : AppCompatActivity() {
@@ -38,7 +42,10 @@ class MainActivity : AppCompatActivity() {
                     loadFragment(AboutFragment())
                     true
                 }
-
+                R.id.alarm_button -> {
+                    loadFragment((AlarmFragment()))
+                    true
+                }
                 else -> false
             }
         }

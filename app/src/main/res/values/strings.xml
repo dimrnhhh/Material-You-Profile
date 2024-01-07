@@ -4,6 +4,7 @@
     // Navigation Bar
     <string name="action_account">Akun</string>
     <string name="action_edit">Ubah</string>
+    <string name="action_alarm">Alarm</string>
     <string name="action_about">Tentang</string>
 
     // Fragment Profile
@@ -37,4 +38,6 @@
     <string name="github_account"><a href="https://github.com/dimrnhhh/">https://github.com/dimrnhhh/</a></string>
     <string name="contact">KONTAK</string>
     <string name="contact_info"><a href="0812345678901">0812345678901</a></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_from_alarm">Hello from Alarm</string>
 </resources>

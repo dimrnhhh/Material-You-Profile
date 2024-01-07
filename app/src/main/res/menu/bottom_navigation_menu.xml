@@ -9,6 +9,10 @@
         android:enabled="true"
         android:icon="@drawable/ic_edit"
         android:title="@string/action_edit"/>
+    <item android:id="@+id/alarm_button"
+        android:enabled="true"
+        android:icon="@drawable/ic_alarm"
+        android:title="@string/action_alarm"/>
     <item
         android:id="@+id/about_button"
         android:enabled="true"

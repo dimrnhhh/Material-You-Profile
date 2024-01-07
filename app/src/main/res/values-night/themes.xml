@@ -4,7 +4,9 @@
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.AppCompat.Dialog.Alert</item>
     </style>
 
-    <style name="Theme.MaterialYouProfile" parent="Base.Theme.MaterialYouProfile" />
+    <style name="Theme.MaterialYouProfile" parent="Base.Theme.MaterialYouProfile">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
 
     <style name="ThemeOverlay.MaterialYouProfile.FullscreenContainer" parent="">
         <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
